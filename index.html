@@ -13,23 +13,35 @@
   />
   <link href="migrantcoder.png" rel="icon" type="img/png"/>
   <style>
+   body, td, footer {
+    font-color: #303030;
+    font-family: "PT Mono";
+    font-size: 10pt;
+   }
    body {
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 5em;
-    width: 50em;
+    top: 150px;
+    width: 40em;
    }
-   body, td {
-    font-color: #303030;
-    font-family: "PT Mono";
-    font-size: 10pt;
+   footer {
+    bottom: 126px;
+    display: block;
+    font-size: 75%;
+    position: absolute;
+   }
+   .footer-text {
+    vertical-align: top;
+   }
+   .footer-image {
+    margin: 0 0 0 30em;
    }
    h1 {
-    margin-bottom: 1em;
     font-size: 15pt;
     font-weight: normal;
+    margin-bottom: 1em;
    }
    a {
     color: #333399;
@@ -37,10 +49,6 @@
    }
    a:hover {
     text-decoration: underline;
-   }
-   .contact {
-    font-size: 75%;
-    margin-top: 2em;
    }
   </style>
  </head>
@@ -58,14 +66,11 @@
     </td>
     <td>&nbsp;- Coding problems and solutions</td>
    </tr>
-   <tr>
-    <td>
-     <p class="contact">
-      <a "mailto:migrantcoder@migrantcoder.org">info@migrantcoder.org</a>
-     </p>
-    </td>
-    <td></td>
-   </tr>
   </table>
  </body>
+ <footer>
+  <a class="footer-text" href="mailto:info@migrantcoder.org">info@migrantcoder.org</a>
+  <img class="footer-image" src="migrantcoder.png" width="30" height="30"/>
+  </div>
+ </footer>
 </html>
